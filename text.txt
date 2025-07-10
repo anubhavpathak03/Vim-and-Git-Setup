@@ -1,0 +1,205 @@
+hello world welcome to the new world
+I'm Anubhav an aspiring software Engineer ready to change the world with my code
+
+Here I'm learning vim
+
+
+--------- random text ------------------------------------
+owejqwheqwjo]e
+wqjepqwe
+wejowjok]1
+A1193Aia023
+12u910211
+epop-20323
+
+HOLA!!! WORLD
+hello-I-am-new-simple-sentence.
+
+
+
+
+print("hello I'm edit this by command - ci<quotation> ")
+
+hello I'm edit this by command - ci<quotation> -> copying using '(y"')' command and paste using 'p' command 
+
+("hello I'm edit this by command - ci<quotation> ") -> copy using 'y%' and past using 'p' command
+--------------------------------------------------- 
+
+
+--> after going to normal mode and then type 'o' then it create new line and going to insert mode
+
+--> going in normal mode and your cursor over nay word then you type 'iA' then it insert the john 'A' before your cursor present in normal mode and if you type 'a' first in normal mode then it insert john after the letter where your cursor in normal mode
+
+so command :->  
+* i - for inserting before the cursor 
+* o - crete new line below the line and going in insert mode 
+* a - for inserting after the cursor
+* capital i - insert the caharacter at begining
+* capital A - insert at the last of line
+* capital O - inserting at above the line
+
+* :set<space>number -> add line no. in the file 
+* h-> goes right
+* l -> goes left
+* j ->goes down
+* k -> goes up
+* :colorscheme<space>tab ->  showing different color
+* u -> type in normal mode for undo the operation
+* ctrl+r -> type in normal mode for redo operation
+v -> type in normal mode visual mode for selecting 
+* d -> for delete 
+* y -> means yanking used for coping used in visual mode 
+* p-> paste the word which is copy
+* dd -> for delete the whole line
+* yy, Y -> coping full line
+* capital P-> used for pasting above the line 
+* cc -> for deleting the content on that line not delete the whole line 
+* D->deleting the rest of the line from the position of cursor to end of the line
+* r-> used for replace
+* w, W -> for jumping to next word in the line
+* b,B -> similar as (w, W) but working in backword mode
+* dw -> delete the word (it not delete the full word) only remaning part of word.
+
+* diw -> delete in a word. means I have to delete full word only then it is use  
+
+* d2b -> means delete 2 john of word backword.
+* ciw -> change in a word.  
+* yiw -> copy inner word.
+* % -> used for going where the closing tag of the bracket is.
+
+* t<position anything upto you want to go excluding that position>
+
+* f<position anything upto you want to go including that position>
+
+
+* T and F -> similar as t and f but in backward 
+
+* gg -> going beginning of the file 
+
+* (shift + g), G -> going end of the file 
+
+
+* dt" -> means delete until quotation
+
+<specfic line number>G -> going to that specific line
+
+*********** ABOVE OF ALL THIS IS FUNDAMENTAL  BINDINGS OF VIM ***********
+
+
+####### ADVANCE BINDINGS ######
+
+
+------- RANDOM TEXT 
+
+OM SHRI RADHE RADHE 
+
+
+if(true) {
+	cout << "== helps to indent properly" << endl;
+}
+else {
+	cout << "not able to indent because already indent 😂 "
+}
+
+
+
+
+------------------
+
+
+1)(>>) used for indent or shifting rigght side 
+
+2) (<<) used for shifting left side 
+
+
+
+3) multiple visual mode 
+----> shift + v -> for selecting entire line 
+----> ctrl + v -> selecting line column wise 
+----> == -> use to indent a line properly 
+----> gg=G -> going start of the file then indent all the line from start to end of the file -> this is also called auto indentation
+
+
+
+ ---> searching in vim is done by '/<search whatever you want>' this command first take us to first search element  to go to the next element present in  the file we search with 'n'keyword and 'N' goes backward
+
+
+ --> in esc mode we select word and then type # then it search for next occurance of word in the file 
+
+
+
+--> ma -> means (mark a) with this command we mark that this is important line whenever you go to that line type ('a) then you reach that line
+
+
+-----> zz -> command use to bring page or line at center of file 
+
+
+####### Substituting string and repeated command ######
+
+
+--------- Random text 
+
+hello john 
+
+john says nothing 
+
+
+what john is doing 
+
+is john is dancing? 
+is john is playing?
+is john is moving?
+is charcter is studying?
+
+who is that john?
+
+
+
+
+as we see here john is repeating
+
+replacing all the character with john
+by use of command 
+:%s/<word you want to substitute>/<what you want to place of that word>/g  
+
+
+it relace in whole file because of %
+
+if we want that replace only in selected portion then we use :s not use %
+
+
+
+----------------------------
+
+---> using same command somewhere in file then use '.' called period character to which use help to run the previous command again 
+
+
+
+***** MACROS AND REGISTER IN VIM *****
+
+whenever we copy or delete something then it is save in the registers 
+
+
+
+whenever we delete something then we paste same word which is deleted so deleting in file is copying 
+
+
+"7yy:reg copying to line 7 in register
+
+
+
+just random typing
+
+d3wA 100 delete 3 word and at end of line add 100
+
+now everything is recorded by using the command'qa' in register for quit recording type q
+
+run recorded register by @a
+
+now everything is recorded
+
+now everything is recorded
+
+now everything is recorded
+
+now everything is recorded
